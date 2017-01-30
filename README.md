@@ -39,18 +39,18 @@ Let's calculate points for this game
 
 By scores:
 
-frame | points | total
--: | :- | :-
-1 | strike 10 + 3 + 7 | 20
-2 | spare  (3+7) + 6 | 36
-3 | 6 + 1           | 43
-4 | strike 10+10+10 | 73
-5 | strike 10+10+2   | 95
-6 | strike 10+2+8     | 115
-7 | spare (2+8)+9     | 134
-8 | 9                           | 143
-9 |   spare (7+3)+10   | 163
-10 | strike 10+10+10  | 193 (two additional balls given)
+| frame | points | total |
+|:-:|:-:|:-:|
+| 1 | strike 10 + 3 + 7 | 20 |
+| 2 | spare  (3+7) + 6 | 36 |
+| 3 | 6 + 1 | 43 |
+| 4 | strike 10+10+10 | 73 |
+| 5 | strike 10+10+2 | 95 |
+| 6 | strike 10+2+8 | 115 |
+| 7 | spare (2+8)+9 | 134 |
+| 8 | 9 | 143 |
+| 9 | spare (7+3)+10 | 163 |
+| 10 | strike 10+10+10 | 193 (two additional balls given) |
 
 So function will take a list
 `[10, 3, 7, 6, 1, 10, 10, 10, 2, 8, 9, 0, 7, 3, 10, 10, 10]` and return 193
